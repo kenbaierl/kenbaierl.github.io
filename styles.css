@@ -59,3 +59,21 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Add this to your existing styles.css */
+
+/* Style the project grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap between project items */
+}
+
+/* Style individual project items */
+.project {
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+}
