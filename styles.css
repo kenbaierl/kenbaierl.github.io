@@ -120,6 +120,11 @@ section p {
     max-width: 150%;
 }
 
+.centered-image {
+  margin: 0 auto;
+  display: block;
+}
+
 .videos {
     display: flex;
     margin-bottom: 20px;
