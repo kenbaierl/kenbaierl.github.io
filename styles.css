@@ -77,3 +77,25 @@ footer {
 .project img {
     max-width: 100%; /* Ensure images don't exceed their container */
 }
+
+/* Add this to your existing styles.css */
+
+/* Additional styles for individual project pages */
+main {
+    padding-top: 50px; /* Adjust to accommodate the header */
+}
+
+section {
+    max-width: 800px; /* Adjust to control the width of the project content */
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: justify; /* Adjust the text alignment as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+}
