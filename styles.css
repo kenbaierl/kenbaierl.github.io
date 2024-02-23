@@ -122,6 +122,7 @@ section p {
 
 .centered-image {
   margin: 0 auto;
+  margin-bottom: 20px;
   display: block;
 }
 
