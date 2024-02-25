@@ -141,3 +141,9 @@ section p {
     color: #007bff;
     text-decoration: none;
 }
+
+.centered-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
