@@ -172,7 +172,9 @@ a:hover {
 }
 
 .skills ul {
-    list-style-type: none;
+    text-align: center;
+    list-style-type: disc;
+    list-style-position: inside;
     padding: 0;
 }
 
