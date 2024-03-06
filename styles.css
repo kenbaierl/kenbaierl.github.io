@@ -97,8 +97,18 @@ section h2 {
 }
 
 section p {
-    text-align: justify; /* Adjust the text alignment as needed */
+    text-align: center; /* Adjust the text alignment as needed */
     line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+section a {
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Add this to your existing styles.css */
