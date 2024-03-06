@@ -156,3 +156,37 @@ a:hover {
   display: block;
   margin: auto;
 }
+
+
+
+/* Styles for home page sections */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.skills {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+/* Flexbox styles */
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
