@@ -29,8 +29,7 @@
     <div class="container">
         <section>
             <h2>Line Following Robot</h2>
-            <p>
-This project involved creating a line-following robot for a microelectronics class, utilizing only PCB components and excluding microcontrollers. The design uses two infrared sensors interfaced with inverters, triggering the motors upon detecting non-black surfaces and halting them over black tape. The robot's chassis was 3D-printed, assembled using screws and bolts to secure the battery holder and PCB. The power system connects a battery pack of 8 AA batteries connected in parallel which outputs 12 volts to a switch, activating the infrared sensors. These sensors output signals through NOT gates to N-channel MOSFETs, which drive the motors, enabling the robot to follow the line by adjusting motor activity. This robot also participated in the Chapman University Make-A-Thon engineering competition.
+            <p>This line-following robot uses 8 AA batteries in series to output 12 volts into a switch that powers two infrared sensors passed through a NOT gate to invert the signal and connect to two NMOS transistors that act as a voltage regulator for the motors. One difficulty in this project was that the initial PCB was accidentally printed inverted which stopped the circuit from working. Another challenge was that the wheels were moving too fast because of the voltage which led to us connecting a resistor between the battery pack and the switch.
             </p>
             <div class="link">
                 <a href="https://docs.google.com/presentation/d/12XlujmH0LAWLrT41_eXYYhP_g-bKdxn_I0eYGCtgP28/edit?usp=sharing">Link to Project Presentation</a>
